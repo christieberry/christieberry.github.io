@@ -1,9 +1,11 @@
 body { 
-		}
+		
 
 
 * { 	font-family: 'Helvetica', sans-serif;
 		}
+        {color: white}
+    }
 
 
 .container {
@@ -14,10 +16,10 @@ body {
 #top { padding-top: 100px;
 	}
 
-#bottom, #top {background-color: lightgray;}
+#bottom, #top {background-color: black;}
 
 #middle {padding-top: 40px;
-		 padding-bottom:40px;
+		 padding-bottom: 40px;
 		 }
 .imageText {
     color: white;
@@ -31,6 +33,15 @@ body {
 @media (min-width: 768px){
 .container {
     width: 100%!important;
+}
+.imageText {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 185%;
+    text-shadow: 3px 3px 5px black;
 }
 }
 @media (min-width: 992px){
