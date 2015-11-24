@@ -1,0 +1,40 @@
+body { 
+		}
+
+
+* { 	font-family: 'Helvetica', sans-serif;
+		}
+
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#top { padding-top: 100px;
+	}
+
+#bottom, #top {background-color: lightgray;}
+
+#middle {padding-top: 40px;
+		 padding-bottom:40px;
+		 }
+.imageText {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 126px;
+    font-size: 185%;
+    text-shadow: 3px 3px 5px black;
+}
+@media (min-width: 768px){
+.container {
+    width: 100%!important;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 100%!important;
+}
+}
